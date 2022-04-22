@@ -1,5 +1,3 @@
-CIP Readme
-
 # Overview
 
 This is a Haskell library for computing obstructions to symplectic embeddings using a certain combinatorial criterion developed by Michael Hutchings in his paper ["Beyond ECH Capacities"](https://arxiv.org/abs/1409.1352). These obstructions are derived from embedded contact homology (ECH) and are stronger than the obstructions obtained from ECH capacities. There are several known cases where symplectic folding can be used to show that the obstructions produced by Hutchings' criterion are optimal.
