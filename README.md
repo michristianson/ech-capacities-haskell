@@ -7,8 +7,6 @@ Note: this research was partially supported by NSF grants DMS-1206667, DMS-09701
 
 This version of the library is written in Haskell. Some of the combinatorics involved are very computationally intensive; rather than optimizing the Haskell code, I chose to rewrite it in C++, which resulted in a huge performance improvement. If you're interested in doing computations for research with this library, I recommend checking out the C++ version, which can be found [here](LINK). However, if just want to play around with some of these combinatorial computations and see how they work, the Haskell version should work just fine.
 
-The name of this library, "CIP," is short for "convex integral paths." Convex integral paths are combinatorial objects arising from Hutchings' criterion. They play a key role in almost all of the computations this library provides.
-
 
 
 # Installation
