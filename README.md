@@ -5,8 +5,7 @@ This is a Haskell library for computing obstructions to symplectic embeddings us
 obstructions obtained from ECH capacities. There are several known cases where symplectic folding can be used to show that the obstructions produced by Hutchings' 
 criterion are optimal.
 
-I wrote this code in 2015 as part of a Research Experience for Undergraduates (REU) program at Columbia University. This research ultimately resulted in a [paper]
-(https://arxiv.org/abs/1610.00566) (co-authored with Jo Nelson, and published under my former legal name) that extends some of Hutchings' results in "Beyond ECH 
+I wrote this code in 2015 as part of a Research Experience for Undergraduates (REU) program at Columbia University. This research ultimately resulted in a [paper](https://arxiv.org/abs/1610.00566) (co-authored with Jo Nelson, and published under my former legal name) that extends some of Hutchings' results in "Beyond ECH 
 Capacities."
 [Note: this research was partially supported by NSF grants DMS-1206667, DMS-0970108, and a Graduate Research Fellowship.]
 
