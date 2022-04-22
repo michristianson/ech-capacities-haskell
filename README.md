@@ -3,9 +3,9 @@
 This is a Haskell library for computing obstructions to symplectic embeddings using a certain combinatorial criterion developed by Michael Hutchings in his paper ["Beyond ECH Capacities"](https://arxiv.org/abs/1409.1352). These obstructions are derived from embedded contact homology (ECH) and are stronger than the obstructions obtained from ECH capacities. There are several known cases where symplectic folding can be used to show that the obstructions produced by Hutchings' criterion are optimal.
 
 I wrote this code in 2015 as part of a Research Experience for Undergraduates (REU) program at Columbia University. This research ultimately resulted in a [paper](https://arxiv.org/abs/1610.00566) (co-authored with Jo Nelson, and published under my former legal name) that extends some of Hutchings' results in "Beyond ECH Capacities."
-Note: this research was partially supported by NSF grants DMS-1206667, DMS-0970108, and a Graduate Research Fellowship.
+[Note: this research was partially supported by NSF grants DMS-1206667, DMS-0970108, and a Graduate Research Fellowship.]
 
-This version of the library is written in Haskell. Some of the combinatorics involved are very computationally intensive; rather than optimizing the Haskell code, I chose to rewrite it in C++, which resulted in a huge performance improvement. If you're interested in doing computations for research with this library, I recommend checking out the C++ version, which can be found [here](LINK). However, if just want to play around with some of these combinatorial computations and see how they work, the Haskell version should work just fine.
+This version of the library is written in Haskell. Some of the combinatorics involved are very computationally intensive; rather than optimizing the Haskell code, I chose to rewrite it in C++, which resulted in a huge performance improvement. If you're interested in doing computations for research with this library, I recommend checking out the C++ version, which can be found [here](https://github.com/michristianson/ech-capacities-cpp/). However, if just want to play around with some of these combinatorial computations and see how they work, the Haskell version should work just fine.
 
 
 
@@ -50,7 +50,7 @@ Here are step-by-step instructions on how to get this library working.
    downloaded file and put it wherever you'd like to store this library. Alternately, if
    you have git installed, you can run the following command on a command line:
 
-   git clone (LINK) target/directory/on/my/computer
+   git clone https://github.com/michristianson/ech-capacities-haskell target/directory/on/my/computer
 
 3. Install dependencies for the library by running the following command on your
    system's command-line interface:
