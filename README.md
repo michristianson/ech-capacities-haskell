@@ -443,4 +443,4 @@ This old HTML documentation exists in the "Old Documentation" folder. If you wan
 
 # Licensing
 
-This library is provided under the MIT license. See LICENSE.txt for details. The gist of it is: feel free to do anything you want with this code, provided you retain the information in the LICENSE.txt file whenever you make copies of it.
+This library is provided under the MIT license. See LICENSE.txt for details. The gist of it is: feel free to do anything you want with this code, provided you retain the information in LICENSE.txt whenever you make copies of it.
