@@ -407,7 +407,7 @@ to change the definition of an LTMemoizer object in LessThans.hs, plus some of
 the functions that manipulate these objects in the same file (e.g.
 memoizeLessThans, updateLTMemoizer, initializeLTMem, etc.)
 
-## Scan results
+## Scan Results
 
 The "Scans" folder contains text files with the output of various scans that I ran in the past (run using the scanning functions in the Obstruct module). These scans were all performed for obstructing the embedding of P(a,1) into E(c,c) by using a convex generator of the form dE(1,-1) for some integer d (in Hutchings' original notation, this would be <img src="https://render.githubusercontent.com/render/math?math=e_{1,1}^d">). Most of the data gathered by these scans is subsumed by the results in the paper I co-authored, which can be found [here](https://arxiv.org/abs/1610.00566). In the paper, we demonstrate that Hutchings' criterion produces optimal obstructions for <img src="https://render.githubusercontent.com/render/math?math=2 \leq a < \frac{\sqrt{7} - 1}{\sqrt{7} - 2} \approx 2.549">. However, some of the scans in here do obtain (non-optimal, but still close to optimal) obstructions for larger values of a.
 
